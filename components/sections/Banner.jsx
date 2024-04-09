@@ -40,7 +40,7 @@ export default function Banner() {
             <div className="w-full h-full relative flex items-center justify-center">
                 <div className="splashLogo flex flex-col items-center relative" style={{ zIndex: 10 }}>
                     <div className="glitch-wrapper text-center">
-                        <span className="glitch" data-glitch="Hi, I'm John Mamanao" style={{ color: theme === "light" ? "#000" : "#fff" }}>
+                    <span className="glitch" data-glitch="Hi, I'm John Mamanao" style={{ color: theme === "light" ? "#000" : "#fff", fontSize: "clamp(30px, 10vw, 80px)" }}>
                             Hi, I&apos;m John Mamanao
                         </span>
                     </div>
